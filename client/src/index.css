@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --dark-primary-color: #054179;
+  --dark-secondary-color: #f98810;
+  --light-primary-color: #20a0eb;
+  --light-secondary-color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}

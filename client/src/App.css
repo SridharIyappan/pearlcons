@@ -1,0 +1,168 @@
+.SignUp {
+  background-color: #cfdddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+
+.container {
+  width: 40rem;
+  border-radius: 0.6em;
+  padding: 2rem;
+  background-color: var(--dark-primary-color);
+  box-shadow: 2rem 2rem 6rem #97a1a1, -2rem -2rem 6rem #ffffff;
+  margin: 2rem auto;
+}
+
+.form {
+  padding: 3rem 4rem;
+  color: var(--light-secondary-color);
+}
+
+.form h2 {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.6rem;
+}
+
+.form-control input {
+  border-radius: 6px;
+  background: var(--light-primary-color);
+  min-height: 2.618em;
+  border: #affae4 solid 2px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #74cdee;
+}
+
+.form button {
+  cursor: pointer;
+  background: var(--dark-secondary-color);
+  border: 1px solid #26e5ec66;
+  color: #fff;
+  font-size: 16px;
+  padding: 0.618em 1.2em;
+  border-radius: 0.4em;
+  display: block;
+  margin-top: 1.2em;
+  width: 100%;
+}
+
+.invalid-feedback {
+  color: red;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.signin-signup-link {
+  text-align: center;
+  color: var(--light-secondary-color)
+}
+
+.signin-signup-link a {
+  color: var(--dark-secondary-color);
+}
+
+.Todo {
+  background: none;
+  text-align: center;
+}
+
+.Todo form input{
+ width: 40rem;
+ height: 4rem;
+ border: 2px solid var(--dark-primary-color);
+ border-radius: 5px;
+ padding: 0.8rem;
+}
+.Todo form button {
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--dark-secondary-color);
+  border: none;
+  color: var(--light-secondary-color);
+}
+
+.Todo .tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+.Todo .tasks .task {
+  width: 50rem;
+  background-color: var(--light-primary-color);
+  color: var(--light-secondary-color);
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  display: flex;
+}
+.Todo .tasks .task-name {
+  flex: 90%;
+  text-align: left;
+}
+.Todo .tasks .task-edit, .Todo .tasks .task-delete {
+  flex: 5%;
+}
+.Todo .tasks .task-edit i {
+  color: var(--dark-primary-color);
+}
+.Todo .tasks .task-delete i {
+  color: red;
+}
+
+.Todo .tasks .edit-input input {
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+.Todo .tasks .task button {
+  border: none;
+  background: #07bc0c;
+  color: var(--light-secondary-color);
+  margin-left: 1rem;
+  padding: 0 1rem;
+  border-radius: 9px;
+}
+
+.Header {
+  width: 100%;
+  background: var(--dark-primary-color);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
+}
+.Header h3 {
+  float: right;
+  color: red;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+
+
+
